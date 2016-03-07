@@ -29,7 +29,8 @@
   padding: 6em;
   color: #FFFFFF;
   font-size: 12px;
-  font-family: Sans-Serif; }
+  font-family: Sans-Serif;
+  margin: 0 auto; }
 
 .choose-box {
   font-family: Sans-Serif;
@@ -151,7 +152,7 @@
 .box6 {
   background-color: #111111;
   text-align: center;
-  margin: 1em;
+  margin: 0 auto;
   font-family: Sans-Serif;
   padding: 2em; }
   .box6 .foot-text {
@@ -163,9 +164,9 @@
 
 @media (min-width: 479px) {
   section.box1 {
-    max-width: 779px;
-    margin: 0 auto; }
-
+    width: 779px;
+    margin: 0 auto; } }
+@media (min-width: 479px) {
   div.box2 {
     max-width: 750px;
     margin: 0 auto;
@@ -183,11 +184,71 @@
 
   div.box5 {
     max-width: 750px;
-    margin: 0 auto;
+    margin: 0;
     margin-bottom: 1em; }
 
   footer.box6 {
     width: 767px;
     margin: 0 auto; } }
+@media (min-width: 767px) {
+  section.box1 {
+    width: 977px;
+    margin: 0 auto; }
+    section.box1 .box1-b {
+      max-width: 977px;
+      margin: 0 auto; }
+
+  div.box2 {
+    width: 30%;
+    max-width: 320px;
+    margin: 0.5em;
+    float: left;
+    padding: 0em; }
+    div.box2 .box2-a {
+      padding: 2em; }
+
+  div.box3 {
+    width: 30%;
+    max-width: 320px;
+    margin: 0.5em;
+    float: left;
+    padding: 0em; }
+    div.box3 .box-3a {
+      padding: 0em; }
+
+  div.box4 {
+    width: 30%;
+    max-width: 320px;
+    margin: 0.5em;
+    float: left;
+    padding: 0em; }
+    div.box4 .box4-a {
+      padding: 1em; }
+
+  div.box5 {
+    clear: left; }
+
+  div.box5-text1-1 {
+    float: left;
+    max-width: 20em;
+    margin: 0 auto; }
+
+  div.box5-text1-2 {
+    float: left;
+    max-width: 20em;
+    margin: 0 auto; }
+
+  div.box5-text1-3 {
+    float: left;
+    max-width: 20em;
+    margin: 0 auto; }
+
+  div.box5-text1-4 {
+    float: left;
+    max-width: 20em;
+    margin: 0 auto; }
+
+  footer.box6 {
+    clear: left; } }
 
 /*# sourceMappingURL=style.css.map */
