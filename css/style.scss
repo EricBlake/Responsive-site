@@ -370,7 +370,6 @@ $secondary-color: #939393;
 		
 		margin:0.5em;
 		float:left;
-		padding:0em;
 		.box2-a{
 			padding:2em;
 		}
@@ -382,7 +381,6 @@ $secondary-color: #939393;
 		
 		margin: 0.5em;
 		float:left;
-		padding:0em;
 		.box-3a{
 			padding:0em;
 			.box2-b-g{
@@ -406,6 +404,8 @@ $secondary-color: #939393;
 	}
 	div.box5{
 		clear:left;
+		overflow: hidden;
+		margin: 0 auto;
 	}
 	
 	div.box5-text1-1{

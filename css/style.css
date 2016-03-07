@@ -260,16 +260,14 @@
   div.box2 {
     width: 30%;
     margin: 0.5em;
-    float: left;
-    padding: 0em; }
+    float: left; }
     div.box2 .box2-a {
       padding: 2em; }
 
   div.box3 {
     width: 30%;
     margin: 0.5em;
-    float: left;
-    padding: 0em; }
+    float: left; }
     div.box3 .box-3a {
       padding: 0em; }
 
@@ -282,7 +280,9 @@
       padding: 1em; }
 
   div.box5 {
-    clear: left; }
+    clear: left;
+    overflow: hidden;
+    margin: 0 auto; }
 
   div.box5-text1-1 {
     float: left;
