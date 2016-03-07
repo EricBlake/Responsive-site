@@ -1,5 +1,5 @@
 .box1 {
-  max-width: 478px;
+  width: 478px;
   text-align: center;
   margin: 0 auto;
   padding: 1em;
@@ -28,7 +28,7 @@
 .box1-b {
   background-image: url("https://images.unsplash.com/2/05.jpg?crop=entropy&dpr=2&fit=crop&fm=jpg&h=800&ixjsv=2.1.0&ixlib=rb-0.3.5&q=50&w=550");
   padding: 6em;
-  max-width: 400px;
+  max-width: 450px;
   color: #FFFFFF;
   font-size: 12px;
   font-family: Sans-Serif; }
@@ -44,7 +44,7 @@
 
 .box2 {
   text-align: center;
-  max-width: 400px;
+  width: 450px;
   border: 1px solid #939393;
   margin: 0 auto;
   margin-bottom: 2em; }
@@ -59,7 +59,8 @@
   .box2 section:first-child p:nth-child(2) {
     font-size: 5em; }
   .box2 section:first-child h2:nth-child(3) {
-    font-size: 16px; }
+    font-size: 16px;
+    color: #939393; }
 
 .box2-b-g {
   background-color: #F7F7F7;
@@ -81,7 +82,7 @@
 
 .box3 {
   text-align: center;
-  max-width: 400px;
+  max-width: 450px;
   border: 1px solid #939393;
   margin: 0 auto;
   margin-bottom: 2em; }
@@ -96,7 +97,8 @@
   .box3 section:first-child p:nth-child(2) {
     font-size: 5em; }
   .box3 section:first-child h2:nth-child(3) {
-    font-size: 16px; }
+    font-size: 16px;
+    color: #939393; }
 
 .box3-b-g {
   background-color: #F7F7F7;
@@ -113,7 +115,7 @@
 
 .box4 {
   text-align: center;
-  max-width: 400px;
+  max-width: 450px;
   border: 1px solid #939393;
   margin: 0 auto;
   margin-bottom: 2em; }
@@ -128,7 +130,8 @@
   .box4 section:first-child p:nth-child(2) {
     font-size: 5em; }
   .box4 section:first-child h2:nth-child(3) {
-    font-size: 16px; }
+    font-size: 16px;
+    color: #939393; }
   .box4 .box4-b-g {
     background-color: #F7F7F7;
     color: #939393;
@@ -143,7 +146,7 @@
     padding: 2em; }
 
 .box5 {
-  max-width: 400px;
+  max-width: 450px;
   text-align: left;
   margin: 0 auto; }
 
@@ -159,7 +162,7 @@
   max-width: 478px;
   margin: 0 auto;
   font-family: Sans-Serif;
-  padding: 1em; }
+  padding: 2em; }
   .box6 .foot-text {
     text-decoration: underline;
     color: #FFFFFF; }
