@@ -1,18 +1,21 @@
 $primary-color: #616E73;
 $secondary-color: #939393;
 
+
 .box1 {
-	width: 478px;
+	
 	text-align: center;
-	margin: 0 auto;
 	padding: 1em;
 	text-decoration: none;
+	margin: 1em;
+	
 
 	.box1-a{
 		text-align: left;
 		padding-top:1em;
 		font-family: Sans-Serif;
 	}
+	
 }
 
 
@@ -45,6 +48,8 @@ $secondary-color: #939393;
 		font-family: Sans-Serif;
 		}
 
+
+
 .choose-box{
 	font-family:Sans-Serif;
 	color: #000000;
@@ -53,14 +58,15 @@ $secondary-color: #939393;
     border: 1px solid $secondary-color;
     border-radius:15px;
     margin: 1px;
+    font-weight: bold;
 }
 
 .box2 {
 	text-align: center;
-	width: 450px;
 	border: 1px solid $secondary-color;
-	margin: 0 auto;
-	margin-bottom: 2em;
+	margin: 1em;
+	margin-bottom:2em;
+	
 
 		.box2-a {
 		background-color: #488148;
@@ -81,7 +87,9 @@ $secondary-color: #939393;
 				}
 
 			}
+	
 	}
+
 
 
 		.box2-b-g{
@@ -89,7 +97,6 @@ $secondary-color: #939393;
 			color: $secondary-color;
 			border-bottom: 1px solid $secondary-color;
 			line-height: 2em;
-			padding: 1em;
 			font-family: Sans-Serif;
 
 				section:p{
@@ -99,10 +106,10 @@ $secondary-color: #939393;
 
 		}
 
-		.box2-h{
-				background-color:#FFFFFF;
-				color: #111111;
-				padding: 2em;
+.box2-h{
+	background-color:#FFFFFF;
+	color: #111111;
+	padding: 2em;
 
 			}
 
@@ -112,9 +119,8 @@ $secondary-color: #939393;
 
 .box3 {
 	text-align: center;
-	max-width: 450px;
 	border: 1px solid $secondary-color;
-	margin: 0 auto;
+	margin: 1em;
 	margin-bottom: 2em;
 
 		.box3-a {
@@ -142,7 +148,6 @@ $secondary-color: #939393;
 				color: $secondary-color;
 				border-bottom: 1px solid $secondary-color;
 				line-height: 2em;
-				padding: 1em;
 				font-family: Sans-Serif;
 }
 .box3-h {
@@ -152,9 +157,8 @@ $secondary-color: #939393;
 	}
 .box4 {
 	text-align: center;
-	max-width: 450px;
 	border: 1px solid $secondary-color;
-	margin: 0 auto;
+	margin: 1em;
 	margin-bottom: 2em;
 
 	.box4-a {
@@ -182,7 +186,6 @@ $secondary-color: #939393;
 		line-height: 2em;
 		padding-top: 3em;
 		border-bottom: 1px solid $secondary-color;
-		padding: 1em;
 		font-family: Sans-Serif;
 
 		}
@@ -196,9 +199,8 @@ $secondary-color: #939393;
 }
 
 .box5 {
-	max-width: 450px;
 	text-align: left;
-	margin: 0 auto;
+	margin: 1em;
 }
 .box5-text1{
 	font-family:Sans-Serif;
@@ -210,8 +212,7 @@ $secondary-color: #939393;
 .box6 {
 	background-color: #111111;
 	text-align: center;
-	max-width: 478px;
-	margin: 0 auto;
+	margin: 1em;
 	font-family: Sans-Serif;
 	padding:2em;
 
@@ -228,7 +229,6 @@ $secondary-color: #939393;
 .foot-text2{
 			color:$secondary-color;
 		}
-
 
 
 
