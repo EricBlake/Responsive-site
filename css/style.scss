@@ -199,7 +199,7 @@ $secondary-color: #939393;
 
 .box5 {
 	text-align: left;
-	margin: 1em;
+	margin: 0 auto;
 }
 .box5-text1{
 	font-family:Sans-Serif;
@@ -353,7 +353,88 @@ $secondary-color: #939393;
 }
 //*break point 3 end*//
 
+//*break point 4 begin*//
+@media(min-width: 970px){
+	section.box1{
+		
+		margin: 0 auto;
+		.box1-b{
+			max-width: 977px;
+			margin: 0 auto;
+		}
+		
+	}
+	div.box2{
+		
+		width: 30%;
+		
+		margin:0.5em;
+		float:left;
+		padding:0em;
+		.box2-a{
+			padding:2em;
+		}
+		
+	}
+	div.box3{
+		
+		width: 30%;
+		
+		margin: 0.5em;
+		float:left;
+		padding:0em;
+		.box-3a{
+			padding:0em;
+			.box2-b-g{
+				
+			}
+		}
+		
+	}
+	div.box4{
+		
+		width: 30%;
+		
+		margin:0.5em;
+		float:left;
+		padding:0em;
+		.box4-a{
+		padding:1em;
 
+		}
+		
+	}
+	div.box5{
+		clear:left;
+	}
+	
+	div.box5-text1-1{
+		float:left;
+		margin:0 auto;
+		
+	}
+	div.box5-text1-2{
+		float:left;
+		margin:0 auto;
+	
+		
+	}
+	div.box5-text1-3{
+		float:left;
+		margin:0 auto;
+		
+	}
+	div.box5-text1-4{
+		float:left;
+		margin:0 auto;
+		
+	}
+	footer.box6{
+		clear:left;
+	}
+
+}
+//*break point 4 end*//
 
 
 
